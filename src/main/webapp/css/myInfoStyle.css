@@ -1,0 +1,8 @@
+table tr th{
+    width: 100px; height: 20px;
+    text-align: center;
+}
+table tr td{
+    width: 250px; height: 20px;
+    text-align: center;
+}

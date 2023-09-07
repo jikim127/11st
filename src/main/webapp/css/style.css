@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.top-bar {
+    background-color: white;
+    padding: 5px 0;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.top-nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.user-actions a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.top-nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ff5a36;
+    color: #fff;
+}
+
+.main-section {
+    padding: 30px 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    position: relative;
+}
+
+.search-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-bar input[type="text"] {
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.search-bar button[type="submit"] {
+    background-color: #ff5a36;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+.product-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image img {
+    transition: transform 0.3s ease;
+}
+
+.product-image:hover img {
+    transform: scale(1.1);
+}
+
+
+/*!* 슬라이드 쇼 컨테이너 스타일 *!*/
+/*.slideshow-container {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 500px;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*!* 이미지 슬라이드 스타일 *!*/
+/*.mySlides {*/
+/*    display: none;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover; !* 이미지를 적절히 조정하여 컨테이너에 맞게 표시 *!*/
+/*}*/
